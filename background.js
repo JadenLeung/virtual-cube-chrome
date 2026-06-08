@@ -16,7 +16,7 @@ chrome.action.onClicked.addListener(async (tab) => {
         overlay.id = "virtual-cube-overlay";
         
         overlay.innerHTML = `
-          <iframe src="http://localhost:8000/"></iframe>
+          <iframe src="https://virtual-cube.net/"></iframe>
           <button id="close-overlay">✕</button>
         `;
         document.body.appendChild(overlay);
